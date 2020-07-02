@@ -29,6 +29,9 @@ public class ClientApplication {
     public ApplicationRunner runner() {
         return args -> {
             for(Integer i = 0;i<20;i++){
+                logger.info("PUT "+ i + " with "+ master.PUT(i.toString(),i.toString()));
+            }
+            for(Integer i = 0;i<20;i++){
                 logger.info("READ "+ i + " with "+ master.READ(i.toString()));
             }
         };
