@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/loadbalance" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/router" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routercoordinator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routerdata" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/slave" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zkclient" charset="UTF-8" />
+  </component>
+</project>

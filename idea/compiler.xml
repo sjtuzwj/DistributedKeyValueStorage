@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client" />
+        <module name="slave" />
+        <module name="api" />
+        <module name="routercoordinator" />
+        <module name="loadbalance" />
+        <module name="zkclient" />
+        <module name="data" />
+        <module name="master" />
+        <module name="routerdata" />
+        <module name="lock" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="data" target="1.8" />
+      <module name="router" target="1.8" />
+      <module name="slavedata" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client" options="-parameters" />
+      <module name="data" options="-parameters" />
+      <module name="loadbalance" options="-parameters" />
+      <module name="lock" options="-parameters" />
+      <module name="master" options="-parameters" />
+      <module name="router" options="-parameters" />
+      <module name="routercoordinator" options="-parameters" />
+      <module name="routerdata" options="-parameters" />
+      <module name="slave" options="-parameters" />
+      <module name="slavedata" options="-parameters" />
+      <module name="zkclient" options="-parameters" />
+    </option>
+  </component>
+</project>
