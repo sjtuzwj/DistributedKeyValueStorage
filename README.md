@@ -1,7 +1,7 @@
 # Distributed Key-value Storage System
 Developer: Zhu Wenjie
 - - - 
-## What is is?
+## What is it?
 A distributed key-value memory storage system,providing basic data sharding based on master/slave architecture.  
 ![avatar](./ARCH.png)
 
@@ -55,4 +55,5 @@ Run zookeeper at 2181 port.
 ## Reference
 - zookeeper
 - dubbo
+
 
