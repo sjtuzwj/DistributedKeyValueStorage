@@ -1,6 +1,8 @@
 # Distributed Key-value Storage System
-Developer: Zhu Wenjie
-annotation: please add . before idea, because some dependence is in is for my mistake.
+Developer: Zhu Wenjie   
+- Annotation: please add . before idea, because some dependence is in is for my mistake.
+- Annotation: please keep at least two data per slave, otherwise loadbalance will not select, and primary won't be decided.
+
 - - - 
 ## What is it?
 A distributed key-value memory storage system,providing basic data sharding based on master/slave architecture.  
