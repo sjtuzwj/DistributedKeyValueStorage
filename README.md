@@ -1,5 +1,6 @@
 # Distributed Key-value Storage System
 Developer: Zhu Wenjie
+annotation: please add . before idea, because some dependence is in is for my mistake.
 - - - 
 ## What is it?
 A distributed key-value memory storage system,providing basic data sharding based on master/slave architecture.  
