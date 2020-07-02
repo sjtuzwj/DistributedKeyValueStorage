@@ -1,7 +1,8 @@
 # Distributed Key-value Storage System
 Developer: Zhu Wenjie   
-- Annotation: please add . before idea, because some dependence is in is for my mistake.
+- Annotation: please add . before idea, because some dependence is in it for my mistake.
 - Annotation: please keep at least two data per slave, otherwise loadbalance will not select, and primary won't be decided.
+- Annotation: zookeeper cluster not committed because getContent will get old data if setContent concurrently, maybe lock can help.
 
 - - - 
 ## What is it?
