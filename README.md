@@ -34,10 +34,10 @@ Implemented by watching zookeeper node.
 ## Quick Start
 Run zookeeper at 2181 port.
 ### Init
-- Set groupid in the property file as 0 or 1, and run DataApplication and Slave Application, then run RouterDataApplication/RouterCoordinatorApplication/MasterApplication twice.  
+- Set groupid in the property file as 0 or 1, and run DataApplication twice  and Slave Application once for each case, then run RouterDataApplication/RouterCoordinatorApplication/MasterApplication twice.  
 - Run client to observe the workload.
 ### Add Slave
-- Set groupid in the property file as 2, and run DataApplication and Slave Application.
+- Set groupid in the property file as 2, and run DataApplication twice and Slave Application once.
 - Run client to observe the workload. How does it change?
 
 ### Destroy Service
