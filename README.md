@@ -50,8 +50,7 @@ Run zookeeper at 2181 port.
 
 ## Material
 - [Demo Video](https://www.zhihu.com/zvideo/1261856862208352256)
-- [Design I](https://zhuanlan.zhihu.com/p/152217006)
-- [Design II](https://zhuanlan.zhihu.com/p/152650883)
+- [Design](https://zhuanlan.zhihu.com/p/153227894)
 
 ## Reference
 - zookeeper
